@@ -13,9 +13,9 @@ keras.callbacks.Callback()
 
 새로운 콜백을 만드는데 사용되는 추상 베이스 클래스.
 
-__특성__
+__속성<Sub>Attribute</Sub>__
 
-- __params__: 딕셔너리. 학습 매개변수
+- __params__: `dictionary`. 학습 매개변수
     (예. 다변 모드, 배치 크기, 세대 수…).
 - __model__:`keras.models.Model`의 인스턴스.
     학습 중인 모델의 참조.
@@ -46,7 +46,7 @@ on_batch_end: 로그에는 `loss`가 포함되고, 선택적으로 `acc`가 포�
 keras.callbacks.BaseLogger(stateful_metrics=None)
 ```
 
-측정항목의 세대 평균을 축적하는 콜백..
+측정항목의 세대 평균을 축적하는 콜백.
 
 이 콜백은 모든 케라스 모델에 자동적으로 적용됩니다.
 
